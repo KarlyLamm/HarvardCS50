@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Images</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <ul class="navbar">
+      <li><a href="index.html" class="previous">Back to Search</a></li>
+    </ul>
+
+    <div class="main">
+      <img
+        id="logo"
+        style="float: left"
+        src="https://i.kym-cdn.com/photos/images/original/001/133/871/f5b.gif"
+      />
+      <form class="input-group" action="https://google.com/search">
+        <input
+          type="text"
+          name="q"
+          class="form-control"
+          placeholder="Search for some cool photos (i.e. Nyan Cat, Dogs eating pasta, ...)"
+        />
+        <div class="input-group-append">
+          <input type="submit" value="Search" class="btn btn-secondary" />
+        </div>
+        <input hidden="true" name="tbm" value="isch" />
+      </form>
+    </div>
+  </body>
+</html>
